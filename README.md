@@ -21,7 +21,7 @@ This project is a Flutter-based mobile banking application UI that demonstrates 
 ## Screenshots & Demo
 
 ### Task Reference
-![Task Image](assignment_2_ui_development\assets\task.png)
+![Task Image](assets/task.png)
 
 
 ## Installation & Setup

@@ -225,7 +225,7 @@ class ProfilePage extends StatelessWidget {
           ),
           const SizedBox(height: 8),
           const Text(
-            'Hello, Iam Faysal new To FLutter App Dev',
+            'Hello, Iam Faysal new To Flutter App Dev',
             style: TextStyle(
               color: Colors.black87,
               fontSize: 15,
