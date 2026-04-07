@@ -8,7 +8,7 @@
 
 ## Project Overview
 
-This project is a Flutter-based mobile banking application UI that demonstrates modern mobile app design principles. The application includes three main pages with seamless navigation and responsive design.
+This project is a Flutter-based mobile banking application UI which was an Assignment. Just to Design the UI Any 3 Pages from 4. Which has been done
 
 ## Task Requirements
 
@@ -18,7 +18,7 @@ This project is a Flutter-based mobile banking application UI that demonstrates 
 3. **Page 4 (Profile)** - User profile with personal information and bio section  
 
 
-## Screenshots & Demo
+## Screenshots
 
 ### Task Reference
 ![Task Image](task.png)
