@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'profile_page.dart';
+import 'bank_card.dart';
 
 class CardsPage extends StatelessWidget {
   const CardsPage({Key? key}) : super(key: key);
@@ -111,8 +112,6 @@ class CardsPage extends StatelessWidget {
         ),
         const SizedBox(height: 16),
         Container(
-          width: double.infinity,
-          height: 220,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(16),
             boxShadow: [
@@ -123,38 +122,11 @@ class CardsPage extends StatelessWidget {
               ),
             ],
           ),
-          child: ClipRRect(
-            borderRadius: BorderRadius.circular(16),
-            child: Stack(
-              children: [
-                // Card background image
-                Container(
-                  width: double.infinity,
-                  height: double.infinity,
-                  decoration: BoxDecoration(
-                    image: DecorationImage(
-                      image: AssetImage('assets/bank_card_photo.jpg'),
-                      fit: BoxFit.cover,
-                    ),
-                  ),
-                ),
-                // Card overlay with dark gradient
-                Container(
-                  width: double.infinity,
-                  height: double.infinity,
-                  decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                      colors: [
-                        Colors.black.withOpacity(0.3),
-                        Colors.black.withOpacity(0.7),
-                      ],
-                    ),
-                  ),
-                ),
-              ],
-            ),
+          child: const BankCard(
+            cardNumber: "4567 **** **** 1234",
+            cardHolder: "FAYSAL DURLOV",
+            expiryDate: "12/28",
+            bankName: "BANK",
           ),
         ),
       ],
